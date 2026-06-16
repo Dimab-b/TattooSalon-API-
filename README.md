@@ -178,6 +178,17 @@ http://localhost:5000/swagger
 ```
 
 ---
+## Screenshots
+
+### Swagger UI
+
+![Swagger UI](images/swagger.png)
+
+### Generated PDF Report
+
+![PDF Report](images/pdf-report.png)
+
+
 
 ## Running with Docker
 
