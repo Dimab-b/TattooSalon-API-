@@ -182,11 +182,11 @@ http://localhost:5000/swagger
 
 ### Swagger UI
 
-![Swagger UI](images/swagger.png)
+![Swagger UI](swagger.png)
 
 ### Generated PDF Report
 
-![PDF Report](images/pdf-report.png)
+![PDF Report](pdf-report.png)
 
 
 
