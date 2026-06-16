@@ -200,6 +200,7 @@ git clone https://github.com/Dimab-b/TattooSalon-API-.git
 
 ```bash
 cd TattooSalon-API-
+cd WebApiArchutecture
 ```
 
 ### Configure Environment Variables
