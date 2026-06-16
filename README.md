@@ -1,40 +1,176 @@
 Tattoo Salon Web API
 
-Проект є повноцінним REST API для управління бізнес-процесами тату-салону. Написаний з використанням Clean Architecture та патерну CQRS, що забезпечує низьку зв'язність коду, високу масштабованість та зручність для подальшої підтримки.
+REST API для автоматизації бізнес-процесів тату-салону. Проєкт побудований з використанням Clean Architecture та CQRS, що забезпечує розділення відповідальностей, масштабованість та зручність підтримки коду.
 
-Стек технологій та глибокий аналіз архітектурних рішень:
-ASP.NET Core: Основна платформа для побудови швидкого та надійного веб-додатку.
-PostgreSQL та Entity Framework Core: PostgreSQL обрано як потужну реляційну базу даних для надійного збереження зв'язків між клієнтами, майстрами та записами на сеанси. EF Core використовується як ORM з підходом Code-First, що дозволяє керувати схемою бази даних через код та автоматично застосовувати міграції при старті додатку.
-MediatR (CQRS Pattern): Логіка додатку суворо розділена на команди (Commands - зміна стану) та запити (Queries - отримання даних). Це усуває перевантаження контролерів, залишаючи в них лише маршрутизацію (прийом запиту та повернення відповіді).
-Redis (Distributed Cache): Використовується для розподіленого кешування частих запитів (наприклад, виведення каталогу послуг чи майстрів). Кешування імплементовано через Pipeline Behaviors у MediatR, що дозволяє виконувати його прозоро для бізнес-логіки, не забруднюючи хендлери зайвим кодом.
-Пагінація: Реалізована для оптимізації роботи з великими масивами даних. Замість завантаження всіх записів з бази, клієнт отримує дані порціями, що суттєво економить пам'ять сервера та зменшує час відповіді.
-Hangfire: Інтегровано для надійної обробки фонових та відкладених задач (наприклад, розсилка email-нагадувань про сеанс), які виконуються асинхронно і не блокують потік виконання веб-запитів користувача.
-FluentValidation: Забезпечує строгу валідацію вхідних даних за принципом Fail-Fast. Перевірка відбувається у пайплайні до того, як некоректні дані потраплять у ядро додатку і викличуть помилку бази.
-JWT Авторизація: Безпека ендпоінтів побудована на JSON Web Tokens для ідентифікації користувачів і розмежування прав доступу (клієнт/адмін).
-Контроль конкурентного доступу (Concurrency Control): Використовується механізм RowVersion на рівні БД. Це гарантує, що якщо два адміністратори одночасно редагують один і той самий запис, дані не будуть випадково перезаписані старим значенням.
-Глобальний обробник помилок (Global Exception Handler): Централізовано перехоплює всі винятки додатку та повертає клієнту чітку, стандартизовану відповідь у форматі ProblemDetails.
-Serilog: Використовується для структурованого логування всіх важливих подій та помилок, що критично важливо для моніторингу системи.
-Docker та Docker Compose: Весь проект контейнеризовано. Це вирішує проблему налаштування середовища на різних комп'ютерах і дозволяє підняти проект однією командою разом з усіма залежностями (база, кеш).
+Project Highlights
+Clean Architecture
+CQRS with MediatR
+JWT Authentication + Refresh Tokens
+Redis Distributed Cache
+Hangfire Background Jobs
+PostgreSQL + Entity Framework Core
+FluentValidation
+Global Exception Handling
+Optimistic Concurrency Control
+Docker & Docker Compose
+Unit & Integration Testing
+Architecture
+Controllers
+    ↓
+MediatR
+    ↓
+Commands / Queries
+    ↓
+Pipeline Behaviors
+    ↓
+Handlers
+    ↓
+Repositories
+    ↓
+Entity Framework Core
+    ↓
+PostgreSQL
 
-Як розгорнути та запустити проект:
-Крок 1. Завантаження коду. Відкрийте термінал і склюнуйте репозиторій на свій комп'ютер командою:
+Application Layer
+Містить бізнес-логіку, CQRS-команди та запити, валідатори, DTO та пайплайни MediatR.
+
+Infrastructure Layer
+Відповідає за роботу з базою даних, кешем, email-сервісом, PDF-генерацією та іншими зовнішніми залежностями.
+
+Domain Layer
+Містить сутності предметної області та бізнес-моделі.
+
+API Layer
+Контролери, middleware та конфігурація застосунку.
+
+Tech Stack
+Backend
+ASP.NET Core Web API
+C#
+REST API
+Database
+PostgreSQL
+Entity Framework Core
+Code First Migrations
+Architecture
+Clean Architecture
+CQRS
+MediatR
+Repository Pattern
+Unit Of Work
+Specification Pattern
+Security
+JWT Authentication
+Refresh Tokens
+Role-Based Authorization
+Validation
+FluentValidation
+Caching
+Redis
+Distributed Cache
+MediatR Pipeline Behaviors
+Background Jobs
+Hangfire
+Logging
+Serilog
+DevOps
+Docker
+Docker Compose
+Testing
+xUnit
+Moq
+FluentAssertions
+Integration Tests
+Unit Tests
+Features
+Authentication
+User Registration
+Login
+JWT Access Tokens
+Refresh Tokens
+Logout
+Role-Based Authorization
+Tattoo Management
+Create Tattoo
+View Tattoo Catalog
+Pagination Support
+Artist Management
+Create Artist
+View Artists
+Filter Artists by Price
+Appointment Management
+Create Appointment
+View Appointments
+Delete Appointments
+Performance
+Redis Distributed Cache
+Pagination
+Optimized Database Queries
+Reliability
+Global Exception Handling
+Validation Pipeline
+Concurrency Control (RowVersion)
+Background Processing
+Automatic Cleanup Jobs
+Email Notifications
+PDF Report Generation
+API Documentation
+
+Після запуску проєкту Swagger буде доступний за адресою:
+
+http://localhost:5000/swagger
+Running with Docker
+Clone Repository
 git clone https://github.com/Dimab-b/TattooSalon-API-.git
-Крок 2. Перейдіть у папку завантаженого проекту:
 cd TattooSalon-API-
-Крок 3. Налаштування змінних середовища. Створіть файл .env у кореневій папці проекту (можете просто скопіювати вміст з .env.example) і впишіть туди власні надійні паролі для бази даних PostgreSQL та сервера Redis.
-Крок 4. Налаштування конфігурації API. Відкрийте файл appsettings.json і обов'язково заповніть ці блоки:
-ConnectionStrings: вкажіть рядок підключення до вашої бази даних PostgreSQL. Пароль та користувач тут мають співпадати з тими, що ви вказали у файлі .env.
-Jwt: придумайте та впишіть довгий секретний ключ для генерації та підпису токенів безпеки.
-EmailSettings: вкажіть дані вашого реального SMTP-сервера (ваша пошта і згенерований пароль додатку). Без цього API не зможе відправляти повідомлення клієнтам на пошту.
-Крок 5. Запуск додатку. Переконайтеся, що у вас запущений Docker Desktop, відкрийте термінал у папці проекту і введіть команду:
-docker-compose up --build
-Docker автоматично завантажить потрібні образи, збере код, підніме контейнери з базою даних і кешем, а Entity Framework автоматично створить таблиці за допомогою міграцій.
+Configure Environment Variables
 
+Створіть файл .env у корені проєкту:
+
+DB_USER=postgres
+DB_PASSWORD=your_password
+Configure Application Settings
+
+У файлі appsettings.json необхідно вказати:
+
+PostgreSQL connection string
+JWT secret key
+SMTP settings for email sending
+Start Application
+docker-compose up --build
+
+Після запуску будуть автоматично підняті:
+
+ASP.NET Core API
+PostgreSQL
+Redis
+Також автоматично застосуються EF Core міграції.
 Як отримати права адміністратора:
 При звичайній реєстрації через ендпоінт API створюється користувач із базовими правами клієнта. Для доступу до захищених функцій управління салоном потрібно змінити роль безпосередньо в базі даних. Підключіться до вашої бази PostgreSQL (наприклад, через pgAdmin або DBeaver) і виконайте цей SQL-запит:
 UPDATE "Users" SET "Role" = 'Admin' WHERE "Username" = 'тут_логін_вашого_користувача';
 
-Тестування:
-Бізнес-логіка проекту покрита інтеграційними та юніт-тестами, щоб гарантувати її стабільність після внесення змін. Тести знаходяться в окремому проекті MyProject.Tests. Щоб перевірити працездатність системи, введіть у терміналі команду:
+Database Migrations
+
+Створення нової міграції:
+dotnet ef migrations add MigrationName
+Застосування міграцій:
+dotnet ef database update
+Testing
+
+Запуск усіх тестів:
 dotnet test
-Також тести зручно запускати та переглядати через Test Explorer у вашій середі розробки.
+
+Проєкт містить:
+Unit Tests
+Integration Tests
+Mocking через Moq
+Assertions через FluentAssertions
+Security
+
+У проєкті реалізовано:
+
+JWT Authentication
+Refresh Tokens
+Role-Based Authorization
+Custom Authorization Policies
+Secure HTTP-Only Cookies для Refresh Token
