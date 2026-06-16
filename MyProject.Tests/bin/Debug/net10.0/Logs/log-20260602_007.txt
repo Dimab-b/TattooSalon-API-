@@ -1,0 +1,118 @@
+[21:12:34 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[21:12:34 INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage'
+[21:12:34 INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+[21:12:34 INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage'
+[21:12:34 INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+[21:12:34 INF] Server дмитрик:24912:05d6bd84 successfully announced in 0,0606 ms
+[21:12:34 INF] Application started. Press Ctrl+C to shut down.
+[21:12:34 INF] Server дмитрик:24912:90213572 successfully announced in 0,0304 ms
+[21:12:34 INF] Server дмитрик:24912:05d6bd84 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+[21:12:34 INF] Hosting environment: Testing
+[21:12:34 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[21:12:34 INF] Server дмитрик:24912:90213572 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+[21:12:34 INF] Server дмитрик:24912:05d6bd84 all the dispatchers started
+[21:12:34 INF] Server дмитрик:24912:90213572 all the dispatchers started
+[21:12:34 WRN] Failed to determine the https port for redirect.
+[21:12:34 INF] Майстер: Sergii - Успішно створений
+[21:12:34 ERR] An exception occurred in the database while saving changes for context type 'WebApiArchutecture.Infrastructure.AppDbContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 1
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.ArgumentException: An item with the same key has already been added. Key: 1
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[21:12:34 INF] Тату успішно створене 2 
+[21:19:29 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[21:19:29 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[21:19:29 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[21:19:29 INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage'
+[21:19:29 INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage'
+[21:19:29 INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+[21:19:29 INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+[21:19:29 INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage'
+[21:19:29 INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+[21:19:29 INF] Application started. Press Ctrl+C to shut down.
+[21:19:29 INF] Hosting environment: Testing
+[21:19:29 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[21:19:29 INF] Starting Hangfire Server using job storage: 'Hangfire.MemoryStorage.MemoryStorage'
+[21:19:29 INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+[21:19:29 INF] Application started. Press Ctrl+C to shut down.
+[21:19:29 INF] Hosting environment: Testing
+[21:19:29 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[21:19:29 INF] Server дмитрик:13364:985cbc79 successfully announced in 3,0829 ms
+[21:19:29 INF] Server дмитрик:13364:020702a4 successfully announced in 3,0816 ms
+[21:19:29 INF] Server дмитрик:13364:a58eb390 successfully announced in 3,0785 ms
+[21:19:29 INF] Server дмитрик:13364:2bfe0e62 successfully announced in 3,0829 ms
+[21:19:29 INF] Server дмитрик:13364:a58eb390 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+[21:19:29 INF] Server дмитрик:13364:020702a4 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+[21:19:29 INF] Server дмитрик:13364:985cbc79 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+[21:19:29 INF] Server дмитрик:13364:2bfe0e62 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+[21:19:29 INF] Server дмитрик:13364:020702a4 all the dispatchers started
+[21:19:29 INF] Server дмитрик:13364:2bfe0e62 all the dispatchers started
+[21:19:29 INF] Server дмитрик:13364:a58eb390 all the dispatchers started
+[21:19:29 INF] Server дмитрик:13364:985cbc79 all the dispatchers started
+[21:19:29 WRN] Failed to determine the https port for redirect.
+[21:19:29 WRN] Failed to determine the https port for redirect.
+[21:19:29 INF] Майстер: Sergii - Успішно створений
+[21:19:30 INF] Тату успішно створене 2 
+[21:19:30 INF] Майстер: Sergii - Успішно створений
+[21:19:30 INF] Успішна реєстрація на запис на "2026-06-22T18:19:30.0622423Z"
+[21:19:30 INF] Запис 2 на "2026-06-22T18:19:30.0622423Z" успішно видалено
+[21:19:30 INF] Майстер: Sergii - Успішно створений
+[21:19:30 INF] Успішна реєстрація на запис на "2026-06-22T18:19:30.1140254Z"
+[21:19:30 INF] Server дмитрик:13364:985cbc79 caught stopping signal...
+[21:19:30 INF] Server дмитрик:13364:020702a4 caught stopping signal...
+[21:19:30 INF] Application is shutting down...
+[21:19:30 INF] Server дмитрик:13364:020702a4 All dispatchers stopped
+[21:19:30 INF] Server дмитрик:13364:020702a4 successfully reported itself as stopped in 0,3375 ms
+[21:19:30 INF] Server дмитрик:13364:020702a4 has been stopped in total 2,5648 ms
+[21:19:30 INF] Зареєстрували користувача: TattooMasterLviv
+[21:19:30 INF] Server дмитрик:13364:a58eb390 caught stopping signal...
+[21:19:30 INF] Server дмитрик:13364:2bfe0e62 caught stopping signal...
+[21:19:30 INF] Application is shutting down...
+[21:19:30 INF] Server дмитрик:13364:985cbc79 caught stopped signal...
+[21:19:30 INF] Server дмитрик:13364:2bfe0e62 caught stopped signal...
+[21:19:30 INF] Server дмитрик:13364:a58eb390 caught stopped signal...
+[21:19:45 WRN] Server дмитрик:13364:985cbc79 caught shutdown signal...
+[21:19:45 WRN] Server дмитрик:13364:985cbc79 stopped non-gracefully due to RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+[21:19:45 INF] Server дмитрик:13364:985cbc79 successfully reported itself as stopped in 0,0898 ms
+[21:19:45 INF] Server дмитрик:13364:985cbc79 has been stopped in total 15010,106 ms
+[21:24:38 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[21:24:38 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[21:24:38 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.

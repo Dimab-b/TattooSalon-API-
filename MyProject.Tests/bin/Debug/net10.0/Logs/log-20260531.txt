@@ -1,0 +1,1229 @@
+[00:27:39 INF] Application started. Press Ctrl+C to shut down.
+[00:27:39 INF] Application started. Press Ctrl+C to shut down.
+[00:27:39 INF] Hosting environment: Testing
+[00:27:39 INF] Hosting environment: Testing
+[00:27:39 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[00:27:39 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[00:27:39 WRN] Failed to determine the https port for redirect.
+[00:27:39 WRN] Failed to determine the https port for redirect.
+[00:27:39 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[00:27:39 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method124(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[00:27:39 INF] Application is shutting down...
+[00:30:54 INF] Application started. Press Ctrl+C to shut down.
+[00:30:54 INF] Hosting environment: Testing
+[00:30:54 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[00:30:54 INF] Application started. Press Ctrl+C to shut down.
+[00:30:54 INF] Hosting environment: Testing
+[00:30:54 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[00:30:54 WRN] Failed to determine the https port for redirect.
+[00:30:54 WRN] Failed to determine the https port for redirect.
+[00:30:55 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method124(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[00:30:55 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[00:30:55 INF] Application is shutting down...
+[00:33:49 INF] Application started. Press Ctrl+C to shut down.
+[00:33:49 INF] Application started. Press Ctrl+C to shut down.
+[00:33:49 INF] Hosting environment: Testing
+[00:33:49 INF] Hosting environment: Testing
+[00:33:49 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[00:33:49 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[00:33:49 WRN] Failed to determine the https port for redirect.
+[00:33:49 WRN] Failed to determine the https port for redirect.
+[00:33:49 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method124(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[00:33:49 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[00:33:49 INF] Application is shutting down...
+[00:34:14 INF] Application started. Press Ctrl+C to shut down.
+[00:34:14 INF] Hosting environment: Testing
+[00:34:14 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[00:34:15 WRN] Failed to determine the https port for redirect.
+[00:34:15 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[00:34:15 INF] Зареєстрували користувача: TattooMasterLviv
+[00:34:15 ERR] Сталася непередбачувана помилка Невірний логін або пароль
+System.UnauthorizedAccessException: Невірний логін або пароль
+   at WebApiArchutecture.Application.Features.Auth.Commands.Loggin.LoginUserCommandHandler.Handle(LoginUserCommand command, CancellationToken token) in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Application\Features\Auth\Commands\Login\LoginUserCommandHandler.cs:line 46
+   at WebApiArchutecture.Application.Features.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Application\Features\ValidationBehavior.cs:line 40
+   at WebApiArchutecture.Controllers.AuthController.Login(LoginUserCommand dto, CancellationToken canceltoken) in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\AuthController.cs:line 47
+   at lambda_method154(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[00:34:15 INF] Application is shutting down...
+[00:37:19 INF] Application started. Press Ctrl+C to shut down.
+[00:37:19 INF] Application started. Press Ctrl+C to shut down.
+[00:37:19 INF] Hosting environment: Testing
+[00:37:19 INF] Hosting environment: Testing
+[00:37:19 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[00:37:19 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[00:37:19 WRN] Failed to determine the https port for redirect.
+[00:37:19 WRN] Failed to determine the https port for redirect.
+[00:37:19 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method124(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[00:37:19 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[00:37:19 INF] Application is shutting down...
+[00:37:56 INF] Application started. Press Ctrl+C to shut down.
+[00:37:56 INF] Application started. Press Ctrl+C to shut down.
+[00:37:56 INF] Hosting environment: Testing
+[00:37:56 INF] Hosting environment: Testing
+[00:37:56 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[00:37:56 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[00:37:56 WRN] Failed to determine the https port for redirect.
+[00:37:56 WRN] Failed to determine the https port for redirect.
+[00:37:56 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method124(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[00:37:56 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[00:37:56 INF] Application is shutting down...
+[01:16:39 INF] Application started. Press Ctrl+C to shut down.
+[01:16:39 INF] Application started. Press Ctrl+C to shut down.
+[01:16:39 INF] Hosting environment: Testing
+[01:16:39 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:16:39 INF] Hosting environment: Testing
+[01:16:39 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:16:39 WRN] Failed to determine the https port for redirect.
+[01:16:39 WRN] Failed to determine the https port for redirect.
+[01:16:39 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[01:16:39 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method124(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[01:16:39 INF] Application is shutting down...
+[01:34:09 INF] Application started. Press Ctrl+C to shut down.
+[01:34:09 INF] Application started. Press Ctrl+C to shut down.
+[01:34:09 INF] Hosting environment: Testing
+[01:34:09 INF] Hosting environment: Testing
+[01:34:09 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:34:09 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:34:09 WRN] Failed to determine the https port for redirect.
+[01:34:09 WRN] Failed to determine the https port for redirect.
+[01:34:09 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[01:34:09 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method125(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[01:34:09 INF] Application is shutting down...
+[01:42:23 INF] Application started. Press Ctrl+C to shut down.
+[01:42:23 INF] Application started. Press Ctrl+C to shut down.
+[01:42:23 INF] Hosting environment: Testing
+[01:42:23 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:42:23 INF] Hosting environment: Testing
+[01:42:23 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:42:23 WRN] Failed to determine the https port for redirect.
+[01:42:23 WRN] Failed to determine the https port for redirect.
+[01:42:23 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method124(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[01:42:23 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[01:42:23 INF] Application is shutting down...
+[01:45:02 INF] Application started. Press Ctrl+C to shut down.
+[01:45:02 INF] Application started. Press Ctrl+C to shut down.
+[01:45:02 INF] Hosting environment: Testing
+[01:45:02 INF] Hosting environment: Testing
+[01:45:02 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:45:02 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:45:02 WRN] Failed to determine the https port for redirect.
+[01:45:02 WRN] Failed to determine the https port for redirect.
+[01:45:02 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method124(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[01:45:02 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[01:45:02 INF] Application is shutting down...
+[01:46:04 INF] Application started. Press Ctrl+C to shut down.
+[01:46:04 INF] Application started. Press Ctrl+C to shut down.
+[01:46:04 INF] Hosting environment: Testing
+[01:46:04 INF] Hosting environment: Testing
+[01:46:04 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:46:04 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:46:04 WRN] Failed to determine the https port for redirect.
+[01:46:04 WRN] Failed to determine the https port for redirect.
+[01:46:04 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method124(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[01:46:04 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[01:46:04 INF] Application is shutting down...
+[01:47:18 INF] Application started. Press Ctrl+C to shut down.
+[01:47:18 INF] Application started. Press Ctrl+C to shut down.
+[01:47:18 INF] Hosting environment: Testing
+[01:47:18 INF] Hosting environment: Testing
+[01:47:18 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:47:18 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:47:18 WRN] Failed to determine the https port for redirect.
+[01:47:18 WRN] Failed to determine the https port for redirect.
+[01:47:18 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method124(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[01:47:18 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[01:47:18 INF] Application is shutting down...
+[01:49:18 INF] Application started. Press Ctrl+C to shut down.
+[01:49:18 INF] Application started. Press Ctrl+C to shut down.
+[01:49:18 INF] Hosting environment: Testing
+[01:49:18 INF] Hosting environment: Testing
+[01:49:18 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:49:18 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[01:49:18 WRN] Failed to determine the https port for redirect.
+[01:49:18 WRN] Failed to determine the https port for redirect.
+[01:49:18 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method124(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[01:49:18 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[01:49:18 INF] Application is shutting down...
+[02:45:01 INF] Application started. Press Ctrl+C to shut down.
+[02:45:01 INF] Application started. Press Ctrl+C to shut down.
+[02:45:01 INF] Application started. Press Ctrl+C to shut down.
+[02:45:01 INF] Hosting environment: Testing
+[02:45:01 INF] Hosting environment: Testing
+[02:45:01 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:45:01 INF] Hosting environment: Testing
+[02:45:01 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:45:01 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:45:01 WRN] Failed to determine the https port for redirect.
+[02:45:01 WRN] Failed to determine the https port for redirect.
+[02:45:01 WRN] Failed to determine the https port for redirect.
+[02:45:01 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[02:45:01 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method138(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[02:45:01 INF] Application is shutting down...
+[02:47:00 INF] Application started. Press Ctrl+C to shut down.
+[02:47:00 INF] Application started. Press Ctrl+C to shut down.
+[02:47:00 INF] Application started. Press Ctrl+C to shut down.
+[02:47:00 INF] Hosting environment: Testing
+[02:47:00 INF] Hosting environment: Testing
+[02:47:00 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:47:00 INF] Hosting environment: Testing
+[02:47:00 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:47:00 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:47:00 WRN] Failed to determine the https port for redirect.
+[02:47:00 WRN] Failed to determine the https port for redirect.
+[02:47:00 WRN] Failed to determine the https port for redirect.
+[02:47:00 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method139(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[02:47:00 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[02:47:00 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[02:47:00 INF] Application is shutting down...
+[02:50:37 INF] Application started. Press Ctrl+C to shut down.
+[02:50:37 INF] Application started. Press Ctrl+C to shut down.
+[02:50:37 INF] Application started. Press Ctrl+C to shut down.
+[02:50:37 INF] Hosting environment: Testing
+[02:50:37 INF] Hosting environment: Testing
+[02:50:37 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:50:37 INF] Hosting environment: Testing
+[02:50:37 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:50:37 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:50:37 WRN] Failed to determine the https port for redirect.
+[02:50:37 WRN] Failed to determine the https port for redirect.
+[02:50:37 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method143(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[02:50:37 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[02:50:37 INF] Application is shutting down...
+[02:51:57 INF] Application started. Press Ctrl+C to shut down.
+[02:51:57 INF] Application started. Press Ctrl+C to shut down.
+[02:51:57 INF] Application started. Press Ctrl+C to shut down.
+[02:51:57 INF] Hosting environment: Testing
+[02:51:57 INF] Hosting environment: Testing
+[02:51:57 INF] Hosting environment: Testing
+[02:51:57 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:51:57 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:51:57 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:51:57 WRN] Failed to determine the https port for redirect.
+[02:51:57 WRN] Failed to determine the https port for redirect.
+[02:51:57 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method142(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[02:51:57 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[02:51:57 INF] Application is shutting down...
+[02:55:39 INF] Application started. Press Ctrl+C to shut down.
+[02:55:39 INF] Application started. Press Ctrl+C to shut down.
+[02:55:39 INF] Application started. Press Ctrl+C to shut down.
+[02:55:39 INF] Hosting environment: Testing
+[02:55:39 INF] Hosting environment: Testing
+[02:55:39 INF] Hosting environment: Testing
+[02:55:39 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:55:39 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:55:39 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:55:39 WRN] Failed to determine the https port for redirect.
+[02:55:39 WRN] Failed to determine the https port for redirect.
+[02:55:39 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[02:55:39 INF] Application is shutting down...
+[02:56:22 INF] Application started. Press Ctrl+C to shut down.
+[02:56:22 INF] Application started. Press Ctrl+C to shut down.
+[02:56:22 INF] Application started. Press Ctrl+C to shut down.
+[02:56:22 INF] Hosting environment: Testing
+[02:56:22 INF] Hosting environment: Testing
+[02:56:22 INF] Hosting environment: Testing
+[02:56:22 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:56:22 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:56:22 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:56:22 WRN] Failed to determine the https port for redirect.
+[02:56:22 WRN] Failed to determine the https port for redirect.
+[02:56:22 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[02:56:22 INF] Application is shutting down...
+[02:57:35 INF] Application started. Press Ctrl+C to shut down.
+[02:57:35 INF] Application started. Press Ctrl+C to shut down.
+[02:57:35 INF] Application started. Press Ctrl+C to shut down.
+[02:57:35 INF] Hosting environment: Testing
+[02:57:35 INF] Hosting environment: Testing
+[02:57:35 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:57:35 INF] Hosting environment: Testing
+[02:57:35 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:57:35 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:57:35 WRN] Failed to determine the https port for redirect.
+[02:57:35 WRN] Failed to determine the https port for redirect.
+[02:57:35 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[02:57:35 INF] Application is shutting down...
+[02:58:36 INF] Application started. Press Ctrl+C to shut down.
+[02:58:36 INF] Application started. Press Ctrl+C to shut down.
+[02:58:36 INF] Application started. Press Ctrl+C to shut down.
+[02:58:36 INF] Hosting environment: Testing
+[02:58:36 INF] Hosting environment: Testing
+[02:58:36 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:58:36 INF] Hosting environment: Testing
+[02:58:36 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:58:36 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:58:36 WRN] Failed to determine the https port for redirect.
+[02:58:36 WRN] Failed to determine the https port for redirect.
+[02:58:36 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[02:58:36 INF] Application is shutting down...
+[02:59:27 INF] Application started. Press Ctrl+C to shut down.
+[02:59:27 INF] Application started. Press Ctrl+C to shut down.
+[02:59:27 INF] Application started. Press Ctrl+C to shut down.
+[02:59:27 INF] Hosting environment: Testing
+[02:59:27 INF] Hosting environment: Testing
+[02:59:27 INF] Hosting environment: Testing
+[02:59:27 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:59:27 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:59:27 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[02:59:27 WRN] Failed to determine the https port for redirect.
+[02:59:27 WRN] Failed to determine the https port for redirect.
+[02:59:27 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[02:59:27 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method142(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[02:59:27 INF] Application is shutting down...
+[17:59:23 INF] Application started. Press Ctrl+C to shut down.
+[17:59:23 INF] Application started. Press Ctrl+C to shut down.
+[17:59:23 INF] Application started. Press Ctrl+C to shut down.
+[17:59:23 INF] Hosting environment: Testing
+[17:59:23 INF] Hosting environment: Testing
+[17:59:23 INF] Hosting environment: Testing
+[17:59:23 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[17:59:23 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[17:59:23 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[17:59:23 WRN] Failed to determine the https port for redirect.
+[17:59:23 WRN] Failed to determine the https port for redirect.
+[17:59:23 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[17:59:23 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method138(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[17:59:23 INF] Application is shutting down...
+[18:01:24 INF] Application started. Press Ctrl+C to shut down.
+[18:01:24 INF] Application started. Press Ctrl+C to shut down.
+[18:01:24 INF] Application started. Press Ctrl+C to shut down.
+[18:01:24 INF] Hosting environment: Testing
+[18:01:24 INF] Hosting environment: Testing
+[18:01:24 INF] Hosting environment: Testing
+[18:01:24 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:01:24 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:01:24 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:01:24 WRN] Failed to determine the https port for redirect.
+[18:01:24 WRN] Failed to determine the https port for redirect.
+[18:01:24 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[18:01:24 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method138(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[18:01:24 INF] Application is shutting down...
+[18:27:24 INF] Application started. Press Ctrl+C to shut down.
+[18:27:24 INF] Application started. Press Ctrl+C to shut down.
+[18:27:24 INF] Application started. Press Ctrl+C to shut down.
+[18:27:24 INF] Hosting environment: Testing
+[18:27:24 INF] Hosting environment: Testing
+[18:27:24 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:27:24 INF] Hosting environment: Testing
+[18:27:24 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:27:24 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:27:24 WRN] Failed to determine the https port for redirect.
+[18:27:24 WRN] Failed to determine the https port for redirect.
+[18:27:24 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[18:27:24 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method139(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[18:27:24 INF] Application is shutting down...
+[18:30:28 INF] Application started. Press Ctrl+C to shut down.
+[18:30:28 INF] Application started. Press Ctrl+C to shut down.
+[18:30:28 INF] Application started. Press Ctrl+C to shut down.
+[18:30:28 INF] Hosting environment: Testing
+[18:30:28 INF] Hosting environment: Testing
+[18:30:28 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:30:28 INF] Hosting environment: Testing
+[18:30:28 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:30:28 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:30:28 WRN] Failed to determine the https port for redirect.
+[18:30:28 WRN] Failed to determine the https port for redirect.
+[18:30:28 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[18:30:28 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method135(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[18:30:28 INF] Application is shutting down...
+[18:31:56 INF] Application started. Press Ctrl+C to shut down.
+[18:31:56 INF] Application started. Press Ctrl+C to shut down.
+[18:31:56 INF] Application started. Press Ctrl+C to shut down.
+[18:31:56 INF] Hosting environment: Testing
+[18:31:56 INF] Hosting environment: Testing
+[18:31:56 INF] Hosting environment: Testing
+[18:31:56 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:31:56 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:31:56 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:31:56 WRN] Failed to determine the https port for redirect.
+[18:31:56 WRN] Failed to determine the https port for redirect.
+[18:31:56 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method135(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[18:31:56 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[18:31:56 INF] Application is shutting down...
+[18:34:50 INF] Application started. Press Ctrl+C to shut down.
+[18:34:50 INF] Application started. Press Ctrl+C to shut down.
+[18:34:50 INF] Application started. Press Ctrl+C to shut down.
+[18:34:50 INF] Hosting environment: Testing
+[18:34:50 INF] Hosting environment: Testing
+[18:34:50 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:34:50 INF] Hosting environment: Testing
+[18:34:50 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:34:50 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:34:50 WRN] Failed to determine the https port for redirect.
+[18:34:50 WRN] Failed to determine the https port for redirect.
+[18:34:50 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method135(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[18:34:50 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[18:34:50 INF] Application is shutting down...
+[18:34:59 INF] Application started. Press Ctrl+C to shut down.
+[18:34:59 INF] Application started. Press Ctrl+C to shut down.
+[18:34:59 INF] Application started. Press Ctrl+C to shut down.
+[18:34:59 INF] Hosting environment: Testing
+[18:34:59 INF] Hosting environment: Testing
+[18:34:59 INF] Hosting environment: Testing
+[18:34:59 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:34:59 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:34:59 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:34:59 WRN] Failed to determine the https port for redirect.
+[18:34:59 WRN] Failed to determine the https port for redirect.
+[18:34:59 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method135(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[18:34:59 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[18:34:59 INF] Application is shutting down...
+[18:37:13 INF] Application started. Press Ctrl+C to shut down.
+[18:37:13 INF] Application started. Press Ctrl+C to shut down.
+[18:37:13 INF] Application started. Press Ctrl+C to shut down.
+[18:37:13 INF] Hosting environment: Testing
+[18:37:13 INF] Hosting environment: Testing
+[18:37:13 INF] Hosting environment: Testing
+[18:37:13 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:37:13 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:37:13 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:37:13 WRN] Failed to determine the https port for redirect.
+[18:37:13 WRN] Failed to determine the https port for redirect.
+[18:37:13 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method136(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[18:37:13 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[18:37:13 INF] Application is shutting down...
+[18:40:05 INF] Application started. Press Ctrl+C to shut down.
+[18:40:05 INF] Application started. Press Ctrl+C to shut down.
+[18:40:05 INF] Application started. Press Ctrl+C to shut down.
+[18:40:05 INF] Hosting environment: Testing
+[18:40:05 INF] Hosting environment: Testing
+[18:40:05 INF] Hosting environment: Testing
+[18:40:05 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:40:05 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:40:05 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:40:05 WRN] Failed to determine the https port for redirect.
+[18:40:05 WRN] Failed to determine the https port for redirect.
+[18:40:05 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method135(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[18:40:05 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[18:40:05 INF] Application is shutting down...
+[18:44:49 INF] Application started. Press Ctrl+C to shut down.
+[18:44:49 INF] Application started. Press Ctrl+C to shut down.
+[18:44:49 INF] Application started. Press Ctrl+C to shut down.
+[18:44:49 INF] Hosting environment: Testing
+[18:44:49 INF] Hosting environment: Testing
+[18:44:49 INF] Hosting environment: Testing
+[18:44:49 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:44:49 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:44:49 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:44:49 WRN] Failed to determine the https port for redirect.
+[18:44:49 WRN] Failed to determine the https port for redirect.
+[18:44:49 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[18:44:49 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method135(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[18:44:49 INF] Application is shutting down...
+[18:48:15 INF] Application started. Press Ctrl+C to shut down.
+[18:48:15 INF] Application started. Press Ctrl+C to shut down.
+[18:48:15 INF] Application started. Press Ctrl+C to shut down.
+[18:48:15 INF] Hosting environment: Testing
+[18:48:15 INF] Hosting environment: Testing
+[18:48:15 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:48:15 INF] Hosting environment: Testing
+[18:48:15 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:48:15 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:48:15 WRN] Failed to determine the https port for redirect.
+[18:48:15 WRN] Failed to determine the https port for redirect.
+[18:48:15 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[18:48:15 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method136(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[18:48:15 INF] Application is shutting down...
+[18:51:38 INF] Application started. Press Ctrl+C to shut down.
+[18:51:38 INF] Application started. Press Ctrl+C to shut down.
+[18:51:38 INF] Application started. Press Ctrl+C to shut down.
+[18:51:38 INF] Hosting environment: Testing
+[18:51:38 INF] Hosting environment: Testing
+[18:51:38 INF] Hosting environment: Testing
+[18:51:38 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:51:38 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:51:38 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:51:38 WRN] Failed to determine the https port for redirect.
+[18:51:38 WRN] Failed to determine the https port for redirect.
+[18:51:38 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method134(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[18:51:38 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[18:51:38 INF] Application is shutting down...
+[18:59:20 INF] Application started. Press Ctrl+C to shut down.
+[18:59:20 INF] Application started. Press Ctrl+C to shut down.
+[18:59:20 INF] Application started. Press Ctrl+C to shut down.
+[18:59:20 INF] Hosting environment: Testing
+[18:59:20 INF] Hosting environment: Testing
+[18:59:20 INF] Hosting environment: Testing
+[18:59:20 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:59:20 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:59:20 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[18:59:20 WRN] Failed to determine the https port for redirect.
+[18:59:20 WRN] Failed to determine the https port for redirect.
+[18:59:20 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method135(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[18:59:20 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[18:59:20 INF] Application is shutting down...
+[19:02:48 INF] Application started. Press Ctrl+C to shut down.
+[19:02:48 INF] Application started. Press Ctrl+C to shut down.
+[19:02:48 INF] Application started. Press Ctrl+C to shut down.
+[19:02:48 INF] Hosting environment: Testing
+[19:02:48 INF] Hosting environment: Testing
+[19:02:48 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:02:48 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:02:48 INF] Hosting environment: Testing
+[19:02:48 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:02:48 WRN] Failed to determine the https port for redirect.
+[19:02:48 WRN] Failed to determine the https port for redirect.
+[19:02:48 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method136(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[19:02:48 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[19:02:48 INF] Application is shutting down...
+[19:03:42 INF] Application started. Press Ctrl+C to shut down.
+[19:03:42 INF] Application started. Press Ctrl+C to shut down.
+[19:03:42 INF] Application started. Press Ctrl+C to shut down.
+[19:03:42 INF] Hosting environment: Testing
+[19:03:42 INF] Hosting environment: Testing
+[19:03:42 INF] Hosting environment: Testing
+[19:03:42 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:03:42 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:03:42 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:03:42 WRN] Failed to determine the https port for redirect.
+[19:03:42 WRN] Failed to determine the https port for redirect.
+[19:03:42 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method135(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[19:03:42 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[19:03:42 INF] Application is shutting down...
+[19:04:52 INF] Application started. Press Ctrl+C to shut down.
+[19:04:52 INF] Application started. Press Ctrl+C to shut down.
+[19:04:52 INF] Application started. Press Ctrl+C to shut down.
+[19:04:52 INF] Hosting environment: Testing
+[19:04:52 INF] Hosting environment: Testing
+[19:04:52 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:04:52 INF] Hosting environment: Testing
+[19:04:52 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:04:52 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:04:52 WRN] Failed to determine the https port for redirect.
+[19:04:52 WRN] Failed to determine the https port for redirect.
+[19:04:52 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method134(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[19:04:52 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[19:04:52 INF] Application is shutting down...
+[19:06:02 INF] Application started. Press Ctrl+C to shut down.
+[19:06:02 INF] Application started. Press Ctrl+C to shut down.
+[19:06:02 INF] Application started. Press Ctrl+C to shut down.
+[19:06:02 INF] Hosting environment: Testing
+[19:06:02 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:06:02 INF] Hosting environment: Testing
+[19:06:02 INF] Hosting environment: Testing
+[19:06:02 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:06:02 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:06:02 WRN] Failed to determine the https port for redirect.
+[19:06:02 WRN] Failed to determine the https port for redirect.
+[19:06:02 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method135(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[19:06:02 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[19:06:02 INF] Application is shutting down...
+[19:11:26 INF] Application started. Press Ctrl+C to shut down.
+[19:11:26 INF] Application started. Press Ctrl+C to shut down.
+[19:11:26 INF] Application started. Press Ctrl+C to shut down.
+[19:11:26 INF] Hosting environment: Testing
+[19:11:26 INF] Hosting environment: Testing
+[19:11:26 INF] Hosting environment: Testing
+[19:11:26 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:11:26 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:11:26 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:11:26 WRN] Failed to determine the https port for redirect.
+[19:11:26 WRN] Failed to determine the https port for redirect.
+[19:11:26 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method135(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[19:11:26 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[19:11:26 INF] Application is shutting down...
+[19:13:03 INF] Application started. Press Ctrl+C to shut down.
+[19:13:03 INF] Application started. Press Ctrl+C to shut down.
+[19:13:03 INF] Application started. Press Ctrl+C to shut down.
+[19:13:03 INF] Hosting environment: Testing
+[19:13:03 INF] Hosting environment: Testing
+[19:13:03 INF] Hosting environment: Testing
+[19:13:03 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:13:03 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:13:03 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:13:03 WRN] Failed to determine the https port for redirect.
+[19:13:03 WRN] Failed to determine the https port for redirect.
+[19:13:03 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method136(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[19:13:03 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[19:13:03 INF] Application is shutting down...
+[19:15:14 INF] Application started. Press Ctrl+C to shut down.
+[19:15:14 INF] Application started. Press Ctrl+C to shut down.
+[19:15:14 INF] Application started. Press Ctrl+C to shut down.
+[19:15:14 INF] Hosting environment: Testing
+[19:15:14 INF] Hosting environment: Testing
+[19:15:14 INF] Hosting environment: Testing
+[19:15:14 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:15:14 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:15:14 INF] Content root path: C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture
+[19:15:14 WRN] Failed to determine the https port for redirect.
+[19:15:14 WRN] Failed to determine the https port for redirect.
+[19:15:14 WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[19:15:14 ERR] Сталася непередбачувана помилка Тестовий вибух сервера!
+System.InvalidOperationException: Тестовий вибух сервера!
+   at WebApiArchitecture.Controllers.controllerForTesting.ThrowError() in C:\Users\dimon\source\repos\WebApiArchutecture\WebApiArchutecture\Controllers\controllerForTesting.cs:line 15
+   at lambda_method136(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+[19:15:14 INF] Application is shutting down...

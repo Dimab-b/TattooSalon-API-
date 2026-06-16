@@ -1,0 +1,7 @@
+.env
+secrets.json
+bin/
+Logs/
+.vs/
+.idea/
+obj/
